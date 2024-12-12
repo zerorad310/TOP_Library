@@ -5,71 +5,6 @@ const closeButton = document.getElementById("closeButton");
 const submit = document.getElementById("submit")
 const mainContainer = document.getElementById("mainContainer");
 
-
-
-const myLibrary = [{
-    "author":"Alistair Maclean", 
-    "title":"Guns of Navarone",
-    "numberOfPages":200,
-    "read":"Yes",
-    "rmId":"rmid0"
-}, {
-    "author":"Alistair Maclean", 
-    "title":"Where Eagles Dare",
-    "numberOfPages":250,
-    "read":"Yes",
-    "rmId":"rmid1"
-}, {
-    "author":"Alistair Maclean", 
-    "title":"Fear is the Key",
-    "numberOfPages":270,
-    "read":"Yes",
-    "rmId":"rmid2"
-}, {
-    "author":"Fredrick Forsyth", 
-    "title":"The Day of the Jackal",
-    "numberOfPages":237,
-    "read":"Yes",
-    "rmId":"rmid3"
-}, {
-    "author":"Fredrick Forsyth", 
-    "title":"Icon",
-    "numberOfPages":300,
-    "read":"Yes",
-    "rmId":"rmid4"
-}, {
-    "author":"Ayn Rand", 
-    "title":"The Fountainhead",
-    "numberOfPages":232,
-    "read":"Yes",
-    "rmId":"rmid5"
-}, {
-    "author":"Agatha Christie", 
-    "title":"Death on the Nile",
-    "numberOfPages":654,
-    "read":"Yes",
-    "rmId":"rmid6"
-}, {
-    "author":"Agatha Christie", 
-    "title":"The Big Four",
-    "numberOfPages":456,
-    "read":"Yes",
-    "rmId":"rmid7"
-}, {
-    "author":"Agatha Christie", 
-    "title":"The Secret Adversary",
-    "numberOfPages":241,
-    "read":"Yes",
-    "rmId":"rmid8"
-}, {
-    "author":"Agatha Christie", 
-    "title":"The Missing Will",
-    "numberOfPages":406,
-    "read":"Yes",
-    "rmId":"rmid9"
-}
-];
-
 // event listener to load cards upon page load 
 window.addEventListener("load", (event) => {
     createBookCards();
@@ -258,3 +193,67 @@ function updateLibraryRmIds() {
         myLibrary[card].rmId = "rmid"+card;
 }
 }
+
+
+const myLibrary = [{
+    "author":"Alistair Maclean", 
+    "title":"Guns of Navarone",
+    "numberOfPages":200,
+    "read":"Yes",
+    "rmId":"rmid0"
+}, {
+    "author":"Alistair Maclean", 
+    "title":"Where Eagles Dare",
+    "numberOfPages":250,
+    "read":"Yes",
+    "rmId":"rmid1"
+}, {
+    "author":"Alistair Maclean", 
+    "title":"Fear is the Key",
+    "numberOfPages":270,
+    "read":"Yes",
+    "rmId":"rmid2"
+}, {
+    "author":"Fredrick Forsyth", 
+    "title":"The Day of the Jackal",
+    "numberOfPages":237,
+    "read":"Yes",
+    "rmId":"rmid3"
+}, {
+    "author":"Fredrick Forsyth", 
+    "title":"Icon",
+    "numberOfPages":300,
+    "read":"Yes",
+    "rmId":"rmid4"
+}, {
+    "author":"Ayn Rand", 
+    "title":"The Fountainhead",
+    "numberOfPages":232,
+    "read":"Yes",
+    "rmId":"rmid5"
+}, {
+    "author":"Agatha Christie", 
+    "title":"Death on the Nile",
+    "numberOfPages":654,
+    "read":"Yes",
+    "rmId":"rmid6"
+}, {
+    "author":"Agatha Christie", 
+    "title":"The Big Four",
+    "numberOfPages":456,
+    "read":"Yes",
+    "rmId":"rmid7"
+}, {
+    "author":"Agatha Christie", 
+    "title":"The Secret Adversary",
+    "numberOfPages":241,
+    "read":"Yes",
+    "rmId":"rmid8"
+}, {
+    "author":"Agatha Christie", 
+    "title":"The Missing Will",
+    "numberOfPages":406,
+    "read":"Yes",
+    "rmId":"rmid9"
+}
+];
